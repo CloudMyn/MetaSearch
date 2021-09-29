@@ -9,12 +9,12 @@ class ComposerStaticInit71b8c138dedfcffb8d8d9ef8e4f6b8eb
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
-            'Cloudmyn\\Metasearch\\' => 20,
+            'CloudMyn\\MetaSearch\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Cloudmyn\\Metasearch\\' => 
+        'CloudMyn\\MetaSearch\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

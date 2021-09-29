@@ -1,18 +1,26 @@
 {
     "name": "cloudmyn/metasearch",
     "description": "none",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cloudmyn\\Metasearch\\": "src/"
+            "CloudMyn\\MetaSearch\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "kingForks",
+            "name": "CloudMyn",
             "email": "muhabdi47.com@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CloudMyn\\MetaSearch\\MetaSearchServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }

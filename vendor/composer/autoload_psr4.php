@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Cloudmyn\\Metasearch\\' => array($baseDir . '/src'),
+    'CloudMyn\\MetaSearch\\' => array($baseDir . '/src'),
 );
