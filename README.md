@@ -1,2 +1,2 @@
 # MetaSearch
-Advanced search system for laravel package
+Advanced search system for laravel
