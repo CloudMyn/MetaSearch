@@ -15,11 +15,12 @@ class CreateMetasearchTable extends Migration
     {
         Schema::create('metasearch', function (Blueprint $table) {
             $table->id();
-            $table->mediumText('mp_text');
-            $table->morphs('model');
+            $table->text('meta_text');
+            $table->text('raw_text');
+            $table->morphs('searchable');
             $table->timestamps();
 
-            $table->unique(['model_id', 'model_type'], 'mp_unique');
+            $table->unique(['searchable_id', 'searchable_type'], 'mp_unique');
         });
     }
 
